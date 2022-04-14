@@ -46,3 +46,59 @@
   - Brilliant self teaching skills
 
 ---
+
+## Code Example
+
+---
+
+```
+function fibonacciGenerator (n) {
+ var fib = [0, 1];
+
+    for(var i=0; i < 100; i++){
+        fib.push(fib[fib.length - 1] + fib[fib.length -2] );
+    }
+
+    var j = 0;
+    n--;
+    var fibo = [];
+    while(j <= n){
+        fibo.push(fib[j]);
+        j++;
+    }
+
+    return fibo;
+
+}
+```
+
+## Experience
+
+---
+
+> I have worked on a charity project for my current company Cognizant Techology Solutions. I am also studying here something new. I came to the realiyation here I love coding so my drem is to do it as a full time job.
+
+---
+
+## Education
+
+---
+
+- Semmelweis Ignàc Medical University
+  - Public Helth(Microbiology specialty)
+- FreeCodeCamp
+  - Responsive Webdesign
+- Codecademy
+  - Javascrip
+  - HTML
+- Complete Web Develpment Bootcamp Udemy
+- Cognizant Javascript by Mosh
+
+---
+
+## English/Languages
+
+---
+
+- English C1(I use it daily, I am working for Youtube currently)
+- Hungarian Native
