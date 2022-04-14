@@ -100,5 +100,6 @@ function fibonacciGenerator (n) {
 
 ---
 
-- English C1(I use it daily, I am working for Youtube currently)
-- Hungarian Native
+#### - English C1(I use it daily, I am working for Youtube currently)
+
+#### - Hungarian Native
