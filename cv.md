@@ -91,8 +91,10 @@ function fibonacciGenerator (n) {
 - Codecademy
   - Javascrip
   - HTML
+  - React
 - Complete Web Develpment Bootcamp Udemy
 - Cognizant Javascript by Mosh
+  - HTML and CSS
 
 ---
 
