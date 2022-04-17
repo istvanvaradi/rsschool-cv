@@ -66,19 +66,27 @@
       <h2>
         Code example
       </h2>
-      <pre>
-      <code>
-        function fibonacciGenerator (n) { var fib = [0, 1]; for(var i=0; i <
-        100; i++){ fib.push(fib[fib.length - 1] + fib[fib.length -2] ); } var j
-        = 0; n--; var fibo = []; while(j <= n){ fibo.push(fib[j]); j++; } return
-        fibo; }
+      
+      <code>function lonelyinteger(a) {  const hash={ }
+          for (let e of a){
+              if(!hash[e]){
+                  hash[e]=1
+                }else{
+            hash[e]++  }}
+    for(let e in hash){
+    if(hash[e]===1){
+        console.log(e)
+    }
+}
+}
+lonelyinteger([1,2,2,1,4])
       </code>
-      </pre>
     </main>
-    <aside>
-      <h2>Skills</h2>
-      <section id="skills">
-        
+    <aside >
+     
+      <section >
+         <h2>Skills</h2>
+         <div id="skills" >
         <ul id="front-end">
           <li style= "font-weight: bold; font-size: large;">Front- end</li>
           <li>React</li>
@@ -96,7 +104,8 @@
           <li>NPM</li>
           <li>EJS</li>
         </ul>
-       
+        </div>
+      </section>
        
         <ul id="soft-skills">
            <li style= "font-weight: bold; font-size: large;">Soft-skills</li>
@@ -108,7 +117,7 @@
           <li>Brilliant self teaching skills</li>
         </ul>
    
-      </section>
+ 
     </aside>
       <footer id="footer">
       <a href="https://rollingscopes.com/" target="_blank" >
@@ -119,9 +128,8 @@
       alt="Rolling scoops logo"
     />
     </a>
-     <a href="#main">Istvan Varadi</a>
-        <a href="https://github.com/istvanvaradi" target="_blank">GIT@istvanvaradi</a>
-    </section>
+    <a href="#main">Istvan Varadi</a>
+    <a href="https://github.com/istvanvaradi" target="_blank">GIT@istvanvaradi</a>
     <p style="color: black;">01. April 2022</p>
   </footer>
   </body>
