@@ -14,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Istvan Varadi CV</title>
   <body>
-    <navigation id="navigation">
+    <nav id="navigation">
       <a href="#footer">Footer</a>
       <a href="#main">Main</a>
-    </navigation>
+    </nav>
     <header>
     <section class="top-section">   
       <img
@@ -66,25 +66,29 @@
       <h2>
         Code example
       </h2>
+      <pre>
       <code>
         function fibonacciGenerator (n) { var fib = [0, 1]; for(var i=0; i <
         100; i++){ fib.push(fib[fib.length - 1] + fib[fib.length -2] ); } var j
         = 0; n--; var fibo = []; while(j <= n){ fibo.push(fib[j]); j++; } return
         fibo; }
       </code>
+      </pre>
     </main>
     <aside>
       <h2>Skills</h2>
       <section id="skills">
+        
         <ul id="front-end">
-          <h3>Front-end</h3>
+          <li style= "font-weight: bold; font-size: large;">Front- end</li>
           <li>React</li>
           <li>JavaScript</li>
           <li>HTML5</li>
           <li>CSS3</li>
         </ul>
         <ul id="backend">
-          <h3>Back-end</h3>
+            <li style= "font-weight: bold; font-size: large;">Back-End</li>
+            
           <li>MongoDb</li>
           <li>NodeJS</li>
           <li>SQL</li>
@@ -92,8 +96,10 @@
           <li>NPM</li>
           <li>EJS</li>
         </ul>
+       
+       
         <ul id="soft-skills">
-          <h3>Soft-skills</h3>
+           <li style= "font-weight: bold; font-size: large;">Soft-skills</li>
           <li>Helpful</li>
           <li>I can easily express myself verbally</li>
           <li>Team player</li>
@@ -101,6 +107,7 @@
           <li>Eagerness to learn</li>
           <li>Brilliant self teaching skills</li>
         </ul>
+   
       </section>
     </aside>
       <footer id="footer">
@@ -112,7 +119,6 @@
       alt="Rolling scoops logo"
     />
     </a>
-    <img>
      <a href="#main">Istvan Varadi</a>
         <a href="https://github.com/istvanvaradi" target="_blank">GIT@istvanvaradi</a>
     </section>
