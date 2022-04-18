@@ -1,0 +1,112 @@
+body{
+    background-color:#4D4C7D;
+    color: rgb(171, 205, 235);
+    font-family: 'Open Sans', sans-serif;
+    width: 95vw;
+    margin: 0;
+    text-align: center;
+}
+a{
+    cursor: grab;
+    color: aliceblue;
+}
+hr{
+   border: 1px solid #4D4C7D;
+   width:25vw;
+   margin-bottom: 25px;
+}
+
+
+main{
+margin: auto;  
+width: 50vw;
+float: right;
+border-radius: 13px;
+background-color: #363062;
+height: fit-content;
+padding: 20px;
+position: relative;
+}
+/*  top part */
+.top-section{
+    margin-bottom: 100px;
+}
+.profilePic{
+    border-radius: 15px 50px;
+
+}
+footer{
+    display: flex;
+    background-color: gray;
+
+}
+/* NAV*/
+ #navigation{
+    position: fixed;
+    display: flex;
+    background-color:rgba(34,28,75,0.2);
+    width: 100vw;
+    overflow: hidden;
+    height: 50px;
+    align-items: center;
+     z-index:1;
+ }
+#navigation a{
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(233, 232, 232);   
+    cursor: grab;
+}
+aside{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 45vh;
+    background-color: #363062;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    
+    border-radius: 15px 20px;
+    box-shadow:#827397 15px 20px ;
+    padding: 20px;
+
+    height: fit-content;
+
+
+
+}
+#skills{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+#backend{
+    margin-right: 25px;
+}
+
+ul li {
+   list-style: none;
+   line-height: 24px;
+}
+
+/* bottom part*/
+#footer{
+    width: 100vw;
+    margin-top: 100px;
+    background-color: #827397;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer a{
+    color:  rgb(1, 7, 12);
+    cursor: grab;
+    line-height: 20px;
+}
+ .rs-logo{
+     padding: 24px;
+ }
