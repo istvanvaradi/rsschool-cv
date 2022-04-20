@@ -6,6 +6,9 @@ body{
     margin: 0;
     text-align: center;
 }
+p{
+    font-size: 16px;
+}
 a{
     cursor: grab;
     color: aliceblue;
@@ -24,9 +27,11 @@ float: right;
 border-radius: 13px;
 background-color: #363062;
 height: fit-content;
-padding: 20px;
+padding: 26px;
 position: relative;
+
 }
+
 /*  top part */
 .top-section{
     margin-bottom: 100px;
@@ -88,9 +93,10 @@ justify-content: space-between;
     margin-right: 25px;
 }
 
-ul li {
-   list-style: none;
+li {
+   padding: 2px;
    line-height: 24px;
+   list-style: none;
 }
 
 /* bottom part*/
@@ -98,14 +104,15 @@ ul li {
     width: 100vw;
     margin-top: 100px;
     background-color: #827397;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 #footer a{
     color:  rgb(1, 7, 12);
     cursor: grab;
     line-height: 20px;
+    padding-top: 20px;
 }
  .rs-logo{
      padding: 24px;
