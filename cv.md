@@ -36,6 +36,7 @@
   - NPM
   - Node JS
   - EJS
+  - SQL
 - Soft Skills
   - Helpful
   - I can easily express myself verbally
