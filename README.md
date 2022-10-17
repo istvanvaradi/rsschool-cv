@@ -1,1 +1,1 @@
-https://istvanvaradi.github.io/rsschool-cv/index.html
+https://istvanvaradi.github.io/rsschool-cv/
