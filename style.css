@@ -19,7 +19,9 @@ hr{
    margin-bottom: 25px;
 }
 
+.profilePic{
 
+}
 main{
 margin: auto;  
 width: 50vw;
@@ -38,7 +40,8 @@ position: relative;
 }
 .profilePic{
     border-radius: 15px 50px;
-
+    width: 200px;
+    margin-top: 100px;
 }
 footer{
     display: flex;
